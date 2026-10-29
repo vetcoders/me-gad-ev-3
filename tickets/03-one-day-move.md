@@ -1,6 +1,6 @@
 # one-day-move: dates move by one day between viewers
 
-**Covers 5 of 427 reports merged into support ticket #4471.**
+**Covers 5 of 412 reports merged into support ticket #4471.**
 
 ## Problem
 

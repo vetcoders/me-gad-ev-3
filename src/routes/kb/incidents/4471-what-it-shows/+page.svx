@@ -4,7 +4,7 @@ title: '#4471 · what it shows: three problems, one ticket'
 owner: support desk · omp (harness of Maciej Gad)
 status: proposed
 reviewed: 2026-10-29
-signature: v1.eyJzdWIiOiI2MDMxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMyNzkxMzksImV4cCI6MTc5MzM2NTUzOX0.YV_LWV0cUYcaYxOGC_AnP-FbL6G4SvnnhMtRhv4buvM
+signature: v1.eyJzdWIiOiI2MDMxIiwiYXVkIjoiY2hhbGxlbmdlOndoYXQtaXQtc2hvd3MiLCJpYXQiOjE3OTMyNzk2OTcsImV4cCI6MTc5MzM2NjA5N30.7sCUrmqS-oyvWWcTMN89rskmACHx4OC4-BnEmCK_xT8
 ---
 
 <script>
@@ -27,8 +27,8 @@ so nobody had read these bodies. Reading them is what split the ticket.
 <ProblemTable ticket={4471} />
 
 Every number above is computed from `data/reports-4471.json`, `data/tenants/` and
-`data/desk-notes.json` at render time. The desk counts rows as exported, so overlapping
-export pages count a report twice.
+`data/desk-notes.json` at render time. The export pages overlap, so rows are deduplicated
+by id first.
 
 ## The three problems
 

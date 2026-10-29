@@ -1,6 +1,6 @@
 # hint-mismatch: booking-v3 hints MM/DD/YYYY, then reads the field day first
 
-**Covers 34 of 427 reports merged into support ticket #4471.**
+**Covers 33 of 412 reports merged into support ticket #4471.**
 
 ## Problem
 
