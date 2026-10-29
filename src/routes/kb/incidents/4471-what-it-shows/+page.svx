@@ -4,7 +4,7 @@ title: '#4471 · what it shows: two problems, one ticket'
 owner: support desk · omp (harness of Maciej Gad)
 status: accepted
 reviewed: 2026-10-29
-signature: v1.eyJzdG9yeSI6Im9mZiIsInN1YiI6IjYwMzEiLCJhdWQiOiJjaGFsbGVuZ2U6d2hhdC1pdC1zaG93cyIsImlhdCI6MTc5MzI4MTU5MSwiZXhwIjoxNzkzMzY3OTkxfQ.oIlEU_dkrUeNIvObICNCN0JaUZfUS8V_FnJ5UhI3fDI
+signature: v1.eyJzdG9yeSI6Im9mZiIsInN1YiI6IjYwMzEiLCJhdWQiOiJjaGFsbGVuZ2U6d2hhdC1pdC1zaG93cyIsImlhdCI6MTc5MzI4MzAzMSwiZXhwIjoxNzkzMzY5NDMxfQ.kh31foiOLa5egwDo3w_GHWCWKx5uFs_NPzLyuR8OSr4
 ---
 
 <script>
