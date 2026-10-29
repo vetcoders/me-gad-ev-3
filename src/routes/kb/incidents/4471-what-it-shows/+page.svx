@@ -1,0 +1,77 @@
+---
+layout: runbook
+title: '#4471 · what it shows: three problems, one ticket'
+owner: support desk · klaudiusz (harness of Maciej Gad)
+status: proposed
+reviewed: 2026-10-29
+signature: klaudiusz · harness of Maciej Gad
+---
+
+<script>
+  import ProblemTable from '#lib/kb/ProblemTable.svelte';
+  import Callout from '#lib/kb/Callout.svelte';
+  import RenderStamp from '#lib/kb/RenderStamp.svelte';
+</script>
+
+[#4471](/kb/incidents/4471) says one issue, one fix queued. The reports in it say more.
+We read every body in the export. The ticket holds **three different problems**, and the
+queued fix covers only the largest one.
+
+<Callout>
+The desk merges on subject alone (<a href="/kb/decisions/0001-dedupe-by-subject">decision 0001</a>),
+so nobody had read these bodies. Reading them is what split the ticket.
+</Callout>
+
+## What the reports show
+
+<ProblemTable ticket={4471} />
+
+Every number above is computed from `data/reports-4471.json`, `data/tenants/` and
+`data/desk-notes.json` at render time. The export pages overlap, so rows are deduplicated
+by id first.
+
+## The three problems
+
+### `parser-order` — the shared parser reads every date month first
+
+Every tenant on file writes the day first, so dates with a day of 12 or less come back
+flipped: *"Our 7 April reminder went out on 4 July"* (R-41200). A day of 13 or more fails
+or lands in the wrong month instead: October bookings shown as January (R-41615). This is
+the bug [#4471](/kb/incidents/4471) describes, and the queued fix addresses it — parse with
+the tenant's locale, not month first.
+
+### `hint-mismatch` — booking-v3's form hints `MM/DD/YYYY`, then reads the field day first
+
+A different bug with the same symptom. Under its date field, booking-v3 prints
+`MM/DD/YYYY`; people type what the hint says, and the form then parses their input the
+tenant's way, day first. The queued parser fix does **not** touch this: the field needs one
+truth, hint and parse agreeing. It reaches only tenants on booking-v3, only through the
+form channel — which is why it hid comfortably inside the bigger group.
+
+### `one-day-move` — dates move by one day between viewers
+
+Five reports the desk itself flagged in `desk-notes.json` describe no flip at all: the same
+meeting lands on *Tuesday in Lisbon and Monday in Toronto* (R-41344), an invite dated
+before its own booking (R-41236), bookings one day off for one month only (R-41209). That
+is a date stored or rendered at a day boundary without its timezone — a different defect
+with a different fix, merged here because the subjects matched.
+
+## What we did about it
+
+One ticket per problem, filed where the desk's tracker can see them, each with the count of
+reports it covers from the table above:
+
+- [vetcoders/me-gad-ev-3 · issues](https://github.com/vetcoders/me-gad-ev-3/issues) —
+  `parser-order`, `hint-mismatch`, `one-day-move`, one issue each.
+
+## Lessons
+
+- A big ticket is *usually* one bug — but "merge on subject, read nothing" guarantees you
+  will never notice when it is not. Sampling a handful of bodies per hundred merges would
+  have caught all three.
+- Intake's tag guesses from the reporter's browser, not the tenant. It disagreed with the
+  tenant-derived cause often enough that no triage should trust it alone.
+- Counts belong to components. The desk kept working while we wrote this, and the table
+  will keep being true after the next export.
+
+<RenderStamp {signature} />

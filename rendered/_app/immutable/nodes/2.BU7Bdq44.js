@@ -1,0 +1,1 @@
+import{C as e,M as t,P as n,T as r,f as i}from"../chunks/7sY2pnHC.js";var a=r(`<main class="svelte-1uha8ag"><h1>me-gad-ev-3</h1> <p>Analysis of support ticket #4471. Start at the <a href="/kb">knowledge base</a>.</p></main>`);function o(r){var o=a();i(`1uha8ag`,e=>{t(()=>{n.title=`support kb · me-gad-ev-3`})}),e(r,o)}export{o as component};
