@@ -1,0 +1,109 @@
+{
+  "likely_tests": [],
+  "next_safe_commands": [
+    "loct slice rendered/_app/immutable/chunks/7sY2pnHC.js",
+    "loct impact rendered/_app/immutable/chunks/7sY2pnHC.js",
+    "loct slice rendered/_app/immutable/entry/app.nFr_GrWY.js"
+  ],
+  "risk": {
+    "cache_scope": "DirtyWorktree",
+    "cache_scope_authority": "repo_verified",
+    "dirty_worktree": true,
+    "git_unknown": false,
+    "high_fan_in": [
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "importers": 12,
+        "threshold": 10
+      }
+    ],
+    "hotspots": [
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "importers": 12
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "importers": 6
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "importers": 6
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "src/lib/kb/causes.ts",
+        "importers": 6
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "importers": 5
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/DK3Fl9T5.js",
+        "importers": 5
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "importers": 3
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "importers": 3
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "src/lib/kb/locales.ts",
+        "importers": 3
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/ArbtAjo-.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/B4SwtwhY.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/BxfaItDQ.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/CRzLMJPS.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/CyHOsG6R.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/ZPXVwAJw.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "src/lib/kb/problems.ts",
+        "importers": 1
+      }
+    ],
+    "snapshot_health": "dirty",
+    "stale_snapshot": false
+  },
+  "verification_gates": [
+    "pnpm check"
+  ]
+}

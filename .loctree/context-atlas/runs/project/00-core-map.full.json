@@ -1,0 +1,317 @@
+{
+  "action": {
+    "likely_tests": [],
+    "next_safe_commands": [
+      "loct slice rendered/_app/immutable/chunks/7sY2pnHC.js",
+      "loct impact rendered/_app/immutable/chunks/7sY2pnHC.js",
+      "loct slice rendered/_app/immutable/entry/app.nFr_GrWY.js"
+    ],
+    "power_path": [
+      {
+        "command": "loct slice rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body A",
+        "reason": "View the definition body of symbol 'A' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal A",
+        "reason": "Execute a literal exact-identifier scan for 'A' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences A",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 'A' to locate all references."
+      },
+      {
+        "command": "loct follow",
+        "reason": "Pursue unified structural signals (dead exports, import cycles, twins) to ensure health."
+      },
+      {
+        "command": "loct slice rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body decode",
+        "reason": "View the definition body of symbol 'decode' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal decode",
+        "reason": "Execute a literal exact-identifier scan for 'decode' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences decode",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 'decode' to locate all references."
+      },
+      {
+        "command": "loct slice rendered/_app/immutable/entry/start.CW706yvM.js",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact rendered/_app/immutable/entry/start.CW706yvM.js",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body init",
+        "reason": "View the definition body of symbol 'init' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal init",
+        "reason": "Execute a literal exact-identifier scan for 'init' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences init",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 'init' to locate all references."
+      },
+      {
+        "command": "loct slice src/lib/kb/causes.ts",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact src/lib/kb/causes.ts",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body Report",
+        "reason": "View the definition body of symbol 'Report' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal Report",
+        "reason": "Execute a literal exact-identifier scan for 'Report' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences Report",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 'Report' to locate all references."
+      },
+      {
+        "command": "loct slice rendered/_app/immutable/chunks/CyFM6xai.js",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact rendered/_app/immutable/chunks/CyFM6xai.js",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body n",
+        "reason": "View the definition body of symbol 'n' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal n",
+        "reason": "Execute a literal exact-identifier scan for 'n' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences n",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 'n' to locate all references."
+      },
+      {
+        "command": "loct slice rendered/_app/immutable/chunks/DK3Fl9T5.js",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact rendered/_app/immutable/chunks/DK3Fl9T5.js",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body t",
+        "reason": "View the definition body of symbol 't' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal t",
+        "reason": "Execute a literal exact-identifier scan for 't' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences t",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 't' to locate all references."
+      },
+      {
+        "command": "loct slice rendered/_app/immutable/chunks/DleOsMbn.js",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact rendered/_app/immutable/chunks/DleOsMbn.js",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body a",
+        "reason": "View the definition body of symbol 'a' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal a",
+        "reason": "Execute a literal exact-identifier scan for 'a' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences a",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 'a' to locate all references."
+      },
+      {
+        "command": "loct slice rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "reason": "Slice this file to inspect its direct dependencies and immediate consumers before editing."
+      },
+      {
+        "command": "loct impact rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "reason": "Assess the transitive blast radius and downstream consumers of this file before modifying."
+      },
+      {
+        "command": "loct body payload",
+        "reason": "View the definition body of symbol 'payload' to understand its implementation structure."
+      },
+      {
+        "command": "loct find --literal payload",
+        "reason": "Execute a literal exact-identifier scan for 'payload' to find exact matches across the codebase."
+      },
+      {
+        "command": "loct occurrences payload",
+        "reason": "Perform a literal boundary-sensitive occurrences scan for 'payload' to locate all references."
+      }
+    ],
+    "verification_gates": [
+      "pnpm check"
+    ]
+  },
+  "authority": {
+    "aicx_agent": [],
+    "aicx_failure": [],
+    "aicx_operator": [],
+    "loctree_derived": [
+      "action.next_safe_commands.loct impact rendered/_app/immutable/chunks/7sY2pnHC.js",
+      "action.next_safe_commands.loct slice rendered/_app/immutable/chunks/7sY2pnHC.js",
+      "action.next_safe_commands.loct slice rendered/_app/immutable/entry/app.nFr_GrWY.js",
+      "action.verification_gates.pnpm check",
+      "risk.high_fan_in.rendered/_app/immutable/chunks/7sY2pnHC.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/7sY2pnHC.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/ArbtAjo-.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/B4SwtwhY.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/BxfaItDQ.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/CRzLMJPS.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/CyFM6xai.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/CyHOsG6R.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/DK3Fl9T5.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/DleOsMbn.js",
+      "risk.hotspots.rendered/_app/immutable/chunks/ZPXVwAJw.js",
+      "risk.hotspots.rendered/_app/immutable/entry/app.nFr_GrWY.js",
+      "risk.hotspots.rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+      "risk.hotspots.rendered/_app/immutable/entry/start.CW706yvM.js",
+      "risk.hotspots.src/lib/kb/causes.ts",
+      "risk.hotspots.src/lib/kb/locales.ts",
+      "risk.hotspots.src/lib/kb/problems.ts"
+    ],
+    "repo_verified": [
+      "risk.cache_scope"
+    ],
+    "semantic_guess": [],
+    "stale_or_unknown": []
+  },
+  "project": {
+    "branch": "main",
+    "canonical_root": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3",
+    "commit": "b5ac6f5",
+    "snapshot_id": "main@b5ac6f5"
+  },
+  "risk": {
+    "cache_scope": "DirtyWorktree",
+    "cache_scope_authority": "repo_verified",
+    "dirty_worktree": true,
+    "git_unknown": false,
+    "high_fan_in": [
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "importers": 12,
+        "threshold": 10
+      }
+    ],
+    "hotspots": [
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "importers": 12
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "importers": 6
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "importers": 6
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "src/lib/kb/causes.ts",
+        "importers": 6
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "importers": 5
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/DK3Fl9T5.js",
+        "importers": 5
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "importers": 3
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "importers": 3
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "src/lib/kb/locales.ts",
+        "importers": 3
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/ArbtAjo-.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/B4SwtwhY.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/BxfaItDQ.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/CRzLMJPS.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/CyHOsG6R.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "rendered/_app/immutable/chunks/ZPXVwAJw.js",
+        "importers": 2
+      },
+      {
+        "authority": "loctree_derived",
+        "file": "src/lib/kb/problems.ts",
+        "importers": 1
+      }
+    ],
+    "snapshot_health": "dirty",
+    "stale_snapshot": false
+  },
+  "schema_version": "1.1"
+}

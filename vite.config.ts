@@ -9,7 +9,9 @@ const layout = (name: string) => fileURLToPath(new URL(`./src/lib/layouts/${name
 export default defineConfig({
 	preview: {
 		// Podgląd dla ludzi idzie przez tailnet (tailscale serve → :8098).
-		allowedHosts: ['dragon.fold-antares.ts.net']
+		allowedHosts: ['dragon.fold-antares.ts.net'],
+		// HTML nie może się kleić w cache przeglądarki między przebudowami.
+		headers: { 'Cache-Control': 'no-cache' }
 	},
 	plugins: [
 		sveltekit({

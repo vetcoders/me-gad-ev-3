@@ -1,0 +1,13 @@
+[
+  {
+    "identity": {
+      "atlas_id": "project",
+      "kind": "project"
+    },
+    "snapshot": "main@b5ac6f5",
+    "generated_at": "2026-10-29T11:33:35.920391Z",
+    "atlas_dir": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project",
+    "manifest": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project/manifest.md",
+    "manifest_json": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project/manifest.json"
+  }
+]

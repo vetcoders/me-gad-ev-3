@@ -1,0 +1,20 @@
+{
+  "memory_slice": {
+    "diagnostic": {
+      "candidates_considered": 0,
+      "candidates_returned": 0,
+      "engaged": true,
+      "namespace": "me-gad-ev-3",
+      "seed_strategy": "target_file",
+      "semantic_readiness": {
+        "kind": "unknown"
+      },
+      "skip_reason": "namespace_empty"
+    },
+    "entries": [],
+    "source_chunks": []
+  },
+  "overlay": null,
+  "rendered_theses": [],
+  "stale": "intent layer stale (no overlay cache yet) — refresh: `aicx overlay --repo /Volumes/vc-workspace/vetcoders/me-gad-ev-3 --format json`"
+}

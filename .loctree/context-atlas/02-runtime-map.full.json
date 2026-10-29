@@ -1,0 +1,29 @@
+{
+  "dispatch_edges": [],
+  "env_contracts": [],
+  "framework_hints": [],
+  "idiom_tags": [],
+  "inventory_coverage": {
+    "env_read_classes": [
+      "javascript_process_env",
+      "python_os_environ",
+      "rust_env_accessor_wrapper",
+      "rust_key_registry_const",
+      "rust_std_env",
+      "swift_process_environment"
+    ],
+    "owner_classes": [
+      "cargo_bin",
+      "cargo_default_run",
+      "cargo_library_crate_type",
+      "code_entrypoint",
+      "make_public_target",
+      "swiftpm_executable_target",
+      "swiftui_main"
+    ],
+    "source_files_scanned": 34
+  },
+  "reachability": [],
+  "tauri_commands": [],
+  "tauri_events": []
+}

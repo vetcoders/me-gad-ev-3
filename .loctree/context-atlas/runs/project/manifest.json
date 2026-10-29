@@ -1,0 +1,141 @@
+{
+  "protocol": "loctree.context_atlas.v1",
+  "status": "atlas_ready",
+  "project": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3",
+  "snapshot": "main@b5ac6f5",
+  "generated_at": "2026-10-29T11:33:35.920391Z",
+  "atlas_dir": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project",
+  "manifest": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project/manifest.md",
+  "manifest_json": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project/manifest.json",
+  "recommended_start": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project/00-core-map.md",
+  "identity": {
+    "atlas_id": "project",
+    "kind": "project"
+  },
+  "atlases": [
+    {
+      "identity": {
+        "atlas_id": "project",
+        "kind": "project"
+      },
+      "snapshot": "main@b5ac6f5",
+      "generated_at": "2026-10-29T11:33:35.920391Z",
+      "atlas_dir": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project",
+      "manifest": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project/manifest.md",
+      "manifest_json": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3/.loctree/context-atlas/runs/project/manifest.json"
+    }
+  ],
+  "domain_owners": {
+    "actions": "05-risk-register",
+    "authority": "01-structural-map",
+    "dispatch": "02-runtime-map",
+    "edges": "01-structural-map",
+    "entrypoints": "02-runtime-map",
+    "env_contracts": "02-runtime-map",
+    "framework_hints": "02-runtime-map",
+    "freshness": "05-risk-register",
+    "gates": "04-verification-gates",
+    "hotspots": "01-structural-map",
+    "hubs": "01-structural-map",
+    "identity": "00-core-map",
+    "import_graph": "01-structural-map",
+    "intent": "03-intent-map",
+    "likely_tests": "04-verification-gates",
+    "reachability": "01-structural-map",
+    "safe_next_commands": "00-core-map",
+    "stale_assumptions": "05-risk-register"
+  },
+  "cards": [
+    {
+      "id": "core",
+      "title": "Core Map",
+      "path": "00-core-map.md",
+      "lines": 40,
+      "bytes": 2192,
+      "why": "Repo identity, current risk, authority labels, safe next commands.",
+      "saves_you_from": "wrong project state, stale assumptions, unsafe first actions",
+      "truncated": false,
+      "dropped_lines": 0,
+      "full_path": "00-core-map.full.json",
+      "full_payload_lines": 317,
+      "payload_hash": "d04768b32634584196cec0d54e64d8afbc9c6da83d7076407a4956bf0706ebbc",
+      "fact_count": 0
+    },
+    {
+      "id": "structural",
+      "title": "Structural Map",
+      "path": "01-structural-map.md",
+      "lines": 52,
+      "bytes": 3663,
+      "why": "Files, symbols, imports, consumers, entrypoints; read before edits/refactors.",
+      "saves_you_from": "missed consumers, wrong impact, blind dependency edits",
+      "truncated": false,
+      "dropped_lines": 0,
+      "full_path": "01-structural-map.full.json",
+      "full_payload_lines": 1505,
+      "payload_hash": "8bfcfb7d7dd1babf74286f2f9906e4e0b5c7edb25ed13e2bf93e3738f6540ffc",
+      "fact_count": 24
+    },
+    {
+      "id": "runtime",
+      "title": "Runtime Map",
+      "path": "02-runtime-map.md",
+      "lines": 31,
+      "bytes": 1298,
+      "why": "Runtime behavior, framework hints, env contracts, reachability.",
+      "saves_you_from": "wrong tests, hidden runtime coupling, config mistakes",
+      "truncated": false,
+      "dropped_lines": 0,
+      "full_path": "02-runtime-map.full.json",
+      "full_payload_lines": 29,
+      "payload_hash": "3aa447e49e8eb34ce20186a31ca3912b1951a4af93915a657914efb3277c8d00",
+      "fact_count": 0
+    },
+    {
+      "id": "intent",
+      "title": "Intent Map",
+      "path": "03-intent-map.md",
+      "lines": 29,
+      "bytes": 1206,
+      "why": "Formative decisions, intents, anti-recommendations, and superseded history pinned to structure (aicx overlay).",
+      "saves_you_from": "repeated work, re-decided decisions, revived refuted approaches",
+      "truncated": false,
+      "dropped_lines": 0,
+      "full_path": "03-intent-map.full.json",
+      "full_payload_lines": 20,
+      "payload_hash": "ad0b41f2d9772a6f94756769dc4f98da15650b170217459e3beb4cbd662c7ba8",
+      "fact_count": 0
+    },
+    {
+      "id": "verification",
+      "title": "Verification Gates",
+      "path": "04-verification-gates.md",
+      "lines": 22,
+      "bytes": 686,
+      "why": "Commands and likely tests most relevant to validate changes.",
+      "saves_you_from": "wrong validation path, skipped downstream checks, false confidence",
+      "truncated": false,
+      "dropped_lines": 0,
+      "full_path": "04-verification-gates.full.json",
+      "full_payload_lines": 109,
+      "payload_hash": "f279fb271a1fc33b5c383d05f3d1c454aa6eedd31c20b94cc2c871e7d9db35dd",
+      "fact_count": 1
+    },
+    {
+      "id": "risk",
+      "title": "Risk Register",
+      "path": "05-risk-register.md",
+      "lines": 27,
+      "bytes": 1161,
+      "why": "Hotspots, cache/snapshot health, stale assumptions, next risk-reducing actions.",
+      "saves_you_from": "release blockers, high fan-in surprises, stale-cache decisions",
+      "truncated": false,
+      "dropped_lines": 0,
+      "full_path": "05-risk-register.full.json",
+      "full_payload_lines": 310,
+      "payload_hash": "5b542df7479b965ecb2bf97d1d9b32bd16b05f24f6dcce89394f002993a9222c",
+      "fact_count": 0
+    }
+  ],
+  "message": "This atlas contains the repo understanding an agent would otherwise rediscover manually. Start with manifest.md and 00-core-map.md for a bounded entry briefing; expand structural/runtime/risk cards for the actual question. Broad repo-level claims require evidence for that breadth. Intent freshness: intent layer stale (no overlay cache yet) — refresh: `aicx overlay --repo /Volumes/vc-workspace/vetcoders/me-gad-ev-3 --format json`. Runtime execution and verification results: not measured by this structural pack."
+}

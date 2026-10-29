@@ -1,0 +1,1505 @@
+{
+  "high_fan_in": [
+    {
+      "authority": "loctree_derived",
+      "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+      "importers": 12,
+      "threshold": 10
+    }
+  ],
+  "structural": {
+    "consumer_coverage": {
+      "rendered/_app/immutable/chunks/7sY2pnHC.js": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      },
+      "rendered/_app/immutable/chunks/CyFM6xai.js": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      },
+      "rendered/_app/immutable/chunks/DK3Fl9T5.js": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      },
+      "rendered/_app/immutable/chunks/DleOsMbn.js": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      },
+      "rendered/_app/immutable/entry/app.nFr_GrWY.js": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      },
+      "rendered/_app/immutable/entry/payload.DSmR2FwN.js": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      },
+      "rendered/_app/immutable/entry/start.CW706yvM.js": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      },
+      "src/lib/kb/causes.ts": {
+        "compiler_complete": false,
+        "diagnostics": [],
+        "reachable_barrels": 0,
+        "snapshot_reexports": 4,
+        "status": "modeled"
+      }
+    },
+    "consumers": [
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/ArbtAjo-.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "t",
+          "C",
+          "F",
+          "H",
+          "I",
+          "K",
+          "L",
+          "N",
+          "O",
+          "R",
+          "T",
+          "U",
+          "W",
+          "g",
+          "m",
+          "q",
+          "r",
+          "w",
+          "x",
+          "n",
+          "i",
+          "l"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/B4SwtwhY.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "t",
+          "C",
+          "D",
+          "F",
+          "I",
+          "K",
+          "L",
+          "N",
+          "O",
+          "R",
+          "T",
+          "U",
+          "W",
+          "a",
+          "c",
+          "h",
+          "l",
+          "m",
+          "o",
+          "q",
+          "r",
+          "u",
+          "x",
+          "z",
+          "i",
+          "n",
+          "s"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/BxfaItDQ.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "t",
+          "C",
+          "K",
+          "T",
+          "r"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/CJmSGGZy.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "F",
+          "H",
+          "I",
+          "J",
+          "N",
+          "O",
+          "R",
+          "S",
+          "T",
+          "U",
+          "V",
+          "W",
+          "_",
+          "b",
+          "g",
+          "i",
+          "k",
+          "n",
+          "p",
+          "q",
+          "w",
+          "x",
+          "y",
+          "a",
+          "c",
+          "o",
+          "r",
+          "s",
+          "t"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "C",
+          "F",
+          "G",
+          "H",
+          "K",
+          "L",
+          "N",
+          "O",
+          "P",
+          "R",
+          "T",
+          "U",
+          "W",
+          "f",
+          "g",
+          "j",
+          "q",
+          "u",
+          "v",
+          "x"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/CyHOsG6R.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "t",
+          "C",
+          "D",
+          "E",
+          "F",
+          "H",
+          "I",
+          "K",
+          "L",
+          "N",
+          "O",
+          "R",
+          "T",
+          "U",
+          "W",
+          "g",
+          "m",
+          "n",
+          "q",
+          "r",
+          "s",
+          "u",
+          "w",
+          "x",
+          "a",
+          "c",
+          "l",
+          "o"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "C",
+          "F",
+          "N",
+          "T",
+          "d",
+          "n",
+          "q",
+          "u",
+          "v"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/ZPXVwAJw.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "B",
+          "O",
+          "V"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "set_payload"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/nodes/0.B60HryTm.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "t",
+          "C",
+          "I",
+          "N",
+          "T",
+          "f",
+          "s",
+          "v",
+          "w"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/nodes/1.DwAi_MGV.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "C",
+          "I",
+          "L",
+          "N",
+          "R",
+          "T",
+          "U",
+          "W",
+          "x",
+          "t"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/nodes/2.BU7Bdq44.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "C",
+          "M",
+          "P",
+          "T",
+          "f"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/nodes/3.lO1QtAuP.js",
+        "import_kind": "direct",
+        "imports_used": [
+          "C",
+          "F",
+          "I",
+          "K",
+          "L",
+          "N",
+          "O",
+          "R",
+          "T",
+          "U",
+          "W",
+          "m",
+          "q",
+          "r",
+          "s",
+          "t",
+          "u",
+          "x",
+          "n"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/index.html",
+        "import_kind": "direct",
+        "imports_used": []
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/kb.html",
+        "import_kind": "direct",
+        "imports_used": []
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/kb/decisions/0001-dedupe-by-subject.html",
+        "import_kind": "direct",
+        "imports_used": []
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/kb/incidents/4471-what-it-shows.html",
+        "import_kind": "direct",
+        "imports_used": []
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/kb/incidents/4471.html",
+        "import_kind": "direct",
+        "imports_used": []
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/kb/triage/dedupe.html",
+        "import_kind": "direct",
+        "imports_used": []
+      },
+      {
+        "authority": "repo_verified",
+        "file": "src/lib/kb/CauseTable.svelte",
+        "import_kind": "direct",
+        "imports_used": [
+          "groupByCause",
+          "readAs",
+          "ticketCause",
+          "uniqueById",
+          "Report"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "src/lib/kb/DedupeExplorer.svelte",
+        "import_kind": "direct",
+        "imports_used": [
+          "causeOf",
+          "sameCause"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "src/lib/kb/ProblemTable.svelte",
+        "import_kind": "direct",
+        "imports_used": [
+          "uniqueById",
+          "Report"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "src/lib/kb/QueueTimeline.svelte",
+        "import_kind": "direct",
+        "imports_used": [
+          "uniqueById",
+          "Report"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "src/lib/kb/locales.ts",
+        "import_kind": "direct",
+        "imports_used": [
+          "Report",
+          "Tenant"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "src/lib/kb/problems.ts",
+        "import_kind": "direct",
+        "imports_used": [
+          "causeOf",
+          "uniqueById",
+          "Report",
+          "Tenant"
+        ]
+      }
+    ],
+    "entrypoints": [],
+    "files": [
+      {
+        "authority": "repo_verified",
+        "depth": 0,
+        "language": "js",
+        "loc": 3,
+        "path": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "role": "target"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 21,
+        "path": "rendered/_app/immutable/chunks/ArbtAjo-.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 4,
+        "path": "rendered/_app/immutable/chunks/B4SwtwhY.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 4,
+        "path": "rendered/_app/immutable/chunks/BxfaItDQ.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 2,
+        "path": "rendered/_app/immutable/chunks/CJmSGGZy.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/chunks/CRzLMJPS.js",
+        "role": "dependency"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 3,
+        "path": "rendered/_app/immutable/chunks/CyHOsG6R.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 0,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/chunks/DK3Fl9T5.js",
+        "role": "target"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/chunks/ZPXVwAJw.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 0,
+        "language": "js",
+        "loc": 2,
+        "path": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "role": "target"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "role": "dependency"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 0,
+        "language": "js",
+        "loc": 2,
+        "path": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "role": "target"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/nodes/0.B60HryTm.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/nodes/1.DwAi_MGV.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 1,
+        "path": "rendered/_app/immutable/nodes/2.BU7Bdq44.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "js",
+        "loc": 2,
+        "path": "rendered/_app/immutable/nodes/3.lO1QtAuP.js",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "html",
+        "loc": 48,
+        "path": "rendered/index.html",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "html",
+        "loc": 71,
+        "path": "rendered/kb.html",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "html",
+        "loc": 53,
+        "path": "rendered/kb/decisions/0001-dedupe-by-subject.html",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "html",
+        "loc": 78,
+        "path": "rendered/kb/incidents/4471-what-it-shows.html",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "html",
+        "loc": 60,
+        "path": "rendered/kb/incidents/4471.html",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "html",
+        "loc": 60,
+        "path": "rendered/kb/triage/dedupe.html",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "svelte",
+        "loc": 56,
+        "path": "src/lib/kb/CauseTable.svelte",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "svelte",
+        "loc": 48,
+        "path": "src/lib/kb/DedupeExplorer.svelte",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "svelte",
+        "loc": 48,
+        "path": "src/lib/kb/ProblemTable.svelte",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "svelte",
+        "loc": 50,
+        "path": "src/lib/kb/QueueTimeline.svelte",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 0,
+        "language": "ts",
+        "loc": 97,
+        "path": "src/lib/kb/causes.ts",
+        "role": "target"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "ts",
+        "loc": 15,
+        "path": "src/lib/kb/locales.ts",
+        "role": "consumer"
+      },
+      {
+        "authority": "repo_verified",
+        "depth": 1,
+        "language": "ts",
+        "loc": 62,
+        "path": "src/lib/kb/problems.ts",
+        "role": "consumer"
+      }
+    ],
+    "imports": [
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "is_bare": false,
+        "kind": "static",
+        "line": 1,
+        "resolution": "unknown",
+        "resolved_path": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "source": "./7sY2pnHC.js",
+        "source_raw": "./7sY2pnHC.js",
+        "symbols": [
+          "e",
+          "t",
+          "n",
+          "r",
+          "i",
+          "a",
+          "o",
+          "s",
+          "c",
+          "l",
+          "u",
+          "d",
+          "f",
+          "p",
+          "m",
+          "h",
+          "g",
+          "_",
+          "v",
+          "y"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "is_bare": false,
+        "kind": "static",
+        "line": 1,
+        "resolution": "unknown",
+        "resolved_path": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "source": "./7sY2pnHC.js",
+        "source_raw": "./7sY2pnHC.js",
+        "symbols": [
+          "e",
+          "t",
+          "n",
+          "r",
+          "i",
+          "a",
+          "o",
+          "s",
+          "c"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "is_bare": false,
+        "kind": "static",
+        "line": 2,
+        "resolution": "unknown",
+        "resolved_path": "rendered/_app/immutable/chunks/CRzLMJPS.js",
+        "source": "../chunks/CRzLMJPS.js",
+        "source_raw": "../chunks/CRzLMJPS.js",
+        "symbols": [
+          "e"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "is_bare": false,
+        "kind": "static",
+        "line": 2,
+        "resolution": "unknown",
+        "resolved_path": "rendered/_app/immutable/chunks/CRzLMJPS.js",
+        "source": "../chunks/CRzLMJPS.js",
+        "source_raw": "../chunks/CRzLMJPS.js",
+        "symbols": [
+          "t"
+        ]
+      },
+      {
+        "authority": "repo_verified",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "is_bare": false,
+        "kind": "static",
+        "line": 2,
+        "resolution": "unknown",
+        "resolved_path": "rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "source": "./payload.DSmR2FwN.js",
+        "source_raw": "./payload.DSmR2FwN.js",
+        "symbols": [
+          "e"
+        ]
+      }
+    ],
+    "symbols": [
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "A"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "B"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "C"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "D"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "E"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "F"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "G"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "H"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "I"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "J"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "K"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "L"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "M"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "N"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "O"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "P"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "R"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "S"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "T"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "U"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "V"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "W"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "_"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "a"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "b"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "c"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "d"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "f"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "g"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "h"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "i"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "j"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "k"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "l"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "m"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "n"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "o"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "p"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "q"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "r"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "s"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "t"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "u"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "v"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "w"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "x"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "y"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "kind": "named",
+        "line": 3,
+        "name": "z"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "kind": "named",
+        "line": 1,
+        "name": "n"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "kind": "named",
+        "line": 1,
+        "name": "r"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/CyFM6xai.js",
+        "kind": "named",
+        "line": 1,
+        "name": "t"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DK3Fl9T5.js",
+        "kind": "named",
+        "line": 1,
+        "name": "t"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "a"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "c"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "i"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "l"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "n"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "o"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "r"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "s"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/chunks/DleOsMbn.js",
+        "kind": "named",
+        "line": 1,
+        "name": "t"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "decode"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "decoders"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "dictionary"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "encoders"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "get_error_template"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "hash"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "hooks"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "matchers"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "nodes"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "kind": "named",
+        "line": 2,
+        "name": "server_loads"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "kind": "named",
+        "line": 1,
+        "name": "payload"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "kind": "named",
+        "line": 1,
+        "name": "set_payload"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "kind": "named",
+        "line": 2,
+        "name": "init"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "kind": "named",
+        "line": 2,
+        "name": "load_css"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "rendered/_app/immutable/entry/start.CW706yvM.js",
+        "kind": "named",
+        "line": 2,
+        "name": "start"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "var",
+        "line": 21,
+        "name": "CAUSES"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "type",
+        "line": 20,
+        "name": "Cause"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "type",
+        "line": 55,
+        "name": "CauseGroup"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "type",
+        "line": 6,
+        "name": "Report"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "type",
+        "line": 18,
+        "name": "Tenant"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "function",
+        "line": 40,
+        "name": "causeOf"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "function",
+        "line": 30,
+        "name": "dayFirst"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "function",
+        "line": 66,
+        "name": "groupByCause"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "function",
+        "line": 95,
+        "name": "readAs"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "function",
+        "line": 45,
+        "name": "sameCause"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "function",
+        "line": 89,
+        "name": "ticketCause"
+      },
+      {
+        "authority": "repo_verified",
+        "export_type": "named",
+        "file": "src/lib/kb/causes.ts",
+        "kind": "function",
+        "line": 51,
+        "name": "uniqueById"
+      }
+    ]
+  }
+}

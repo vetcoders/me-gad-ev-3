@@ -1,0 +1,73 @@
+{
+  "cards": [
+    "00-core-map.md",
+    "01-structural-map.md",
+    "02-runtime-map.md",
+    "03-intent-map.md",
+    "04-verification-gates.md",
+    "05-risk-register.md"
+  ],
+  "coverage_receipts": [
+    {
+      "coverage_receipt": [],
+      "fact_count": 0,
+      "path": "00-core-map.md"
+    },
+    {
+      "coverage_receipt": [
+        "authority:LoctreeDerived",
+        "authority:RepoVerified",
+        "edge:rendered/_app/immutable/chunks/7sY2pnHC.js:rendered/_app/immutable/chunks/CyFM6xai.js",
+        "edge:rendered/_app/immutable/chunks/7sY2pnHC.js:rendered/_app/immutable/chunks/DleOsMbn.js",
+        "edge:rendered/_app/immutable/chunks/CRzLMJPS.js:rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "edge:rendered/_app/immutable/chunks/CRzLMJPS.js:rendered/_app/immutable/entry/start.CW706yvM.js",
+        "edge:rendered/_app/immutable/entry/payload.DSmR2FwN.js:rendered/_app/immutable/entry/start.CW706yvM.js",
+        "hotspots:rendered/_app/immutable/chunks/7sY2pnHC.js",
+        "hotspots:rendered/_app/immutable/chunks/ArbtAjo-.js",
+        "hotspots:rendered/_app/immutable/chunks/B4SwtwhY.js",
+        "hotspots:rendered/_app/immutable/chunks/BxfaItDQ.js",
+        "hotspots:rendered/_app/immutable/chunks/CRzLMJPS.js",
+        "hotspots:rendered/_app/immutable/chunks/CyFM6xai.js",
+        "hotspots:rendered/_app/immutable/chunks/CyHOsG6R.js",
+        "hotspots:rendered/_app/immutable/chunks/DK3Fl9T5.js",
+        "hotspots:rendered/_app/immutable/chunks/DleOsMbn.js",
+        "hotspots:rendered/_app/immutable/chunks/ZPXVwAJw.js",
+        "hotspots:rendered/_app/immutable/entry/app.nFr_GrWY.js",
+        "hotspots:rendered/_app/immutable/entry/payload.DSmR2FwN.js",
+        "hotspots:rendered/_app/immutable/entry/start.CW706yvM.js",
+        "hotspots:src/lib/kb/causes.ts",
+        "hotspots:src/lib/kb/locales.ts",
+        "hotspots:src/lib/kb/problems.ts",
+        "hub:rendered/_app/immutable/chunks/7sY2pnHC.js"
+      ],
+      "fact_count": 24,
+      "path": "01-structural-map.md"
+    },
+    {
+      "coverage_receipt": [],
+      "fact_count": 0,
+      "path": "02-runtime-map.md"
+    },
+    {
+      "coverage_receipt": [],
+      "fact_count": 0,
+      "path": "03-intent-map.md"
+    },
+    {
+      "coverage_receipt": [
+        "gate:pnpm check"
+      ],
+      "fact_count": 1,
+      "path": "04-verification-gates.md"
+    },
+    {
+      "coverage_receipt": [],
+      "fact_count": 0,
+      "path": "05-risk-register.md"
+    }
+  ],
+  "generated_at": "2026-10-29T11:33:35.920391Z",
+  "project": "/Volumes/vc-workspace/vetcoders/me-gad-ev-3",
+  "protocol": "loctree.context_atlas.v1",
+  "snapshot": "main@b5ac6f5"
+}
