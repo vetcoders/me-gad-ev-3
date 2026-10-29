@@ -19,7 +19,7 @@
 
 <div class="kb">
   <header>
-    <a class="crumb" href="/kb">support desk · kb</a>
+    <a class="crumb" href="/kb">‹ support desk · kb</a>
     <h1>{title}</h1>
     <p class="meta">
       <span>owner <b>{owner}</b></span>
@@ -52,7 +52,8 @@
   :global(.kb code) { font-family: var(--mono); font-size: 0.88em; }
   :global(.kb a) { color: var(--accent); }
   .kb { max-width: 760px; margin: 0 auto; padding: 2rem 16px 4rem; }
-  .crumb { font: 0.8rem var(--mono); text-decoration: none; color: var(--muted); }
+  .crumb { font: 0.8rem var(--mono); text-decoration: none; color: var(--accent); }
+  .crumb:hover { text-decoration: underline; }
   h1 { margin: 0.25rem 0 0.5rem; line-height: 1.2; }
   .meta { display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; color: var(--muted); font-size: 0.85rem; margin: 0; }
   .status { border: 1px solid var(--line); border-radius: 99px; padding: 0 0.6rem; }

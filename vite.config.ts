@@ -7,6 +7,10 @@ import { defineConfig } from 'vite';
 const layout = (name: string) => fileURLToPath(new URL(`./src/lib/layouts/${name}.svelte`, import.meta.url));
 
 export default defineConfig({
+	preview: {
+		// Podgląd dla ludzi idzie przez tailnet (tailscale serve → :8098).
+		allowedHosts: ['dragon.fold-antares.ts.net']
+	},
 	plugins: [
 		sveltekit({
 			extensions: ['.svelte', '.svx'],
@@ -24,6 +28,9 @@ export default defineConfig({
 						? undefined
 						: true
 			},
+
+			// Strony kb mają nieść swoje style w HTML: rendered/ ogląda się też bez JS.
+			inlineStyleThreshold: 1024 * 1024,
 
 			adapter: adapter({ fallback: undefined })
 		})
