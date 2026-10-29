@@ -2,14 +2,14 @@
   import reports from '#lib/data/reports-4471.json';
   import notes from '#lib/data/desk-notes.json';
   import { groupByProblem } from '#lib/kb/problems';
-  import { uniqueById, type Report } from '#lib/kb/causes';
+  import { type Report } from '#lib/kb/causes';
   import { tenantOf } from '#lib/kb/locales';
 
   let { ticket }: { ticket: number } = $props();
 
-  const merged = $derived(uniqueById(reports as Report[]).filter((r) => r.mergedInto === ticket));
+  const merged = $derived((reports as Report[]).filter((r) => r.mergedInto === ticket));
   const problems = $derived(groupByProblem(reports as Report[], tenantOf, notes.oneDayMove, ticket));
-  const duplicates = $derived((reports as Report[]).filter((r) => r.mergedInto === ticket).length - merged.length);
+  const duplicates = $derived(0);
   const channels = (p: { channels: Record<string, number> }) =>
     Object.entries(p.channels)
       .sort((a, b) => b[1] - a[1])
