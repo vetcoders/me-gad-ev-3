@@ -1,6 +1,6 @@
-// What #4471 actually holds. causes.ts tells parser from hint by tenant and channel;
-// desk-notes.json marks the reports the desk read as a one-day move. A report lands in
-// exactly one problem, so the problem counts add up to the ticket's report count.
+// What #4471 actually holds. The desk's causeOf tells parser from hint by tenant and channel.
+// desk-notes.json marks reports the desk re-read as one-day-move — a footnote within a
+// group, not a separate problem. A report lands in exactly one problem (parser or hint).
 import { causeOf, uniqueById, type Report, type Tenant } from '#lib/kb/causes';
 
 export type ProblemKey = 'parser-order' | 'hint-mismatch' | 'one-day-move' | 'unplaced';
@@ -24,8 +24,10 @@ const TITLES: Record<ProblemKey, string> = {
 
 const KEY_OF_CAUSE = { parser: 'parser-order', hint: 'hint-mismatch' } as const;
 
-function problemOf(r: Report, t: Tenant | undefined, oneDayMove: readonly string[]): ProblemKey {
-  if (oneDayMove.includes(r.id)) return 'one-day-move';
+function problemOf(r: Report, t: Tenant | undefined): ProblemKey {
+  // The desk's own classification: causeOf determines parser vs hint.
+  // one-day-move is a re-reading of reports within a group, not a separate cause.
+  // Those reports stay in their cause group (parser or hint).
   const cause = causeOf(r, t);
   return cause ? KEY_OF_CAUSE[cause] : 'unplaced';
 }
@@ -33,13 +35,13 @@ function problemOf(r: Report, t: Tenant | undefined, oneDayMove: readonly string
 export function groupByProblem(
   reports: Report[],
   tenantOf: (r: Report) => Tenant | undefined,
-  oneDayMove: readonly string[],
+  _oneDayMove: readonly string[], // kept for API compat; odm is a footnote, not a problem
   ticket: number
 ): Problem[] {
   const merged = uniqueById(reports).filter((r) => r.mergedInto === ticket);
   const byKey = new Map<ProblemKey, Report[]>();
   for (const r of merged) {
-    const key = problemOf(r, tenantOf(r), oneDayMove);
+    const key = problemOf(r, tenantOf(r));
     byKey.set(key, [...(byKey.get(key) ?? []), r]);
   }
   return [...byKey.entries()]

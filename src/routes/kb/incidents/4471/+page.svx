@@ -15,12 +15,12 @@ reviewed: 2026-10-29
 Since April, people have told us their bookings land on the wrong day: a month flipped. By
 4 October the desk had **412 reports**.
 
-**Split into three problems.** Reading the report bodies showed this ticket holds three
+**Split into two problems.** Reading the report bodies showed this ticket holds two
 different defects, not one. See [what it shows](/kb/incidents/4471-what-it-shows) for the
-full analysis. Individual tickets: parser-order (379 reports), hint-mismatch (33), one-day-move (5).
+full analysis. Individual tickets: parser-order (379 reports), hint-mismatch (33).
 
 <Callout>
-Split. Three problems, three tickets. The parser fix addresses only the largest.
+Split. Two problems, two tickets. The parser fix addresses only the largest.
 </Callout>
 
 ## What was merged
