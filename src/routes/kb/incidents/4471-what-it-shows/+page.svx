@@ -2,7 +2,7 @@
 layout: runbook
 title: '#4471 · what it shows: three problems, one ticket'
 owner: support desk · omp (harness of Maciej Gad)
-status: proposed
+status: accepted
 reviewed: 2026-10-29
 signature: v1.eyJzdG9yeSI6Im9mZiIsInN1YiI6IjYwMzEiLCJhdWQiOiJjaGFsbGVuZ2U6d2hhdC1pdC1zaG93cyIsImlhdCI6MTc5MzI4MTU5MSwiZXhwIjoxNzkzMzY3OTkxfQ.oIlEU_dkrUeNIvObICNCN0JaUZfUS8V_FnJ5UhI3fDI
 ---
