@@ -1,6 +1,6 @@
 # parser-order: shared parser reads every date month first
 
-**Covers 374 of 412 reports merged into support ticket #4471.**
+**Covers 388 of 427 reports merged into support ticket #4471.**
 
 ## Problem
 
