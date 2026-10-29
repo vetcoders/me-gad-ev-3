@@ -10,11 +10,11 @@
 		<link href="../../_app/immutable/chunks/CJmSGGZy.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/7sY2pnHC.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/ZPXVwAJw.js" rel="modulepreload">
-		<link href="../../_app/immutable/entry/app.qKS2lgHM.js" rel="modulepreload">
+		<link href="../../_app/immutable/entry/app.DiHrjw_9.js" rel="modulepreload">
 		<link href="../../_app/immutable/nodes/0.B60HryTm.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/DK3Fl9T5.js" rel="modulepreload">
-		<link href="../../_app/immutable/nodes/6.CcHOqdum.js" rel="modulepreload">
-		<link href="../../_app/immutable/chunks/B21bthNc.js" rel="modulepreload">
+		<link href="../../_app/immutable/nodes/6.DACgrwyK.js" rel="modulepreload">
+		<link href="../../_app/immutable/chunks/Calrv_Ug.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/CyFM6xai.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/CVBzP17p.js" rel="modulepreload">
 		<link href="../../_app/immutable/chunks/DleOsMbn.js" rel="modulepreload">
@@ -33,8 +33,8 @@ aside.svelte-17bri61{border-left:4px solid var(--accent);background:var(--note-b
 		<div style="display: contents"><!--[--><!--[--><!--[0--><!--[--><!--[--><!--[-1--><!--[--><div class="kb svelte-e2jw2j"><header><a class="crumb svelte-e2jw2j" href="/kb">‹ support desk · kb</a> <h1 class="svelte-e2jw2j">#4471 · what it shows: three problems, one ticket</h1> <p class="meta svelte-e2jw2j"><span>owner <b>support desk · omp (harness of Maciej Gad)</b></span> <span class="status proposed svelte-e2jw2j">proposed</span> <span class="svelte-e2jw2j">reviewed 2026-10-29 · 0 days ago</span></p></header> <!--[-1--><!--]--> <main><p><a href="/kb/incidents/4471">#4471</a> says one issue, one fix queued. The reports in it say more.
 We read every body in the export. The ticket holds <strong>three different problems</strong>, and the
 queued fix covers only the largest one.</p> <aside class="note svelte-17bri61"><!---->The desk merges on subject alone (<a href="/kb/decisions/0001-dedupe-by-subject">decision 0001</a>),
-so nobody had read these bodies. Reading them is what split the ticket.<!----></aside><!----> <h2>What the reports show</h2> <p class="sum svelte-1op6c6"><strong>427</strong> reports in #4471 · <strong>3</strong> problems <!--[-1--><!--]--></p> <table><thead><tr><th>problem</th><th>reports</th><th>tenants</th><th>via</th><th>seen</th></tr></thead><tbody><!--[--><tr><td><code>parser-order</code> — shared parser reads every date month first</td><td>388</td><td>11</td><td class="via svelte-1op6c6">app ×209 · email ×154 · form ×25</td><td>2026-04-01 → 2026-10-04</td></tr><tr><td><code>hint-mismatch</code> — booking-v3 hints MM/DD/YYYY, then reads the field day first</td><td>34</td><td>3</td><td class="via svelte-1op6c6">form ×34</td><td>2026-04-17 → 2026-09-22</td></tr><tr><td><code>one-day-move</code> — dates move by one day between viewers</td><td>5</td><td>5</td><td class="via svelte-1op6c6">email ×3 · app ×2</td><td>2026-04-02 → 2026-10-04</td></tr><!--]--></tbody></table><!----> <p>Every number above is computed from <code>data/reports-4471.json</code>, <code>data/tenants/</code> and <code>data/desk-notes.json</code> at render time. The desk counts rows as exported: the export
-pages overlap, so 15 reports appear twice, for 427 rows of 412 unique reports.</p> <h2>The three problems</h2> <h3><code>parser-order</code> — the shared parser reads every date month first</h3> <p>Every tenant on file writes the day first, so dates with a day of 12 or less come back
+so nobody had read these bodies. Reading them is what split the ticket.<!----></aside><!----> <h2>What the reports show</h2> <p class="sum svelte-1op6c6"><strong>412</strong> reports in #4471 · <strong>3</strong> problems <!--[0--><span class="dup svelte-1op6c6">· 15 duplicate export rows dropped by id</span><!--]--></p> <table><thead><tr><th>problem</th><th>reports</th><th>tenants</th><th>via</th><th>seen</th></tr></thead><tbody><!--[--><tr><td><code>parser-order</code> — shared parser reads every date month first</td><td>374</td><td>11</td><td class="via svelte-1op6c6">app ×202 · email ×147 · form ×25</td><td>2026-04-01 → 2026-10-04</td></tr><tr><td><code>hint-mismatch</code> — booking-v3 hints MM/DD/YYYY, then reads the field day first</td><td>33</td><td>3</td><td class="via svelte-1op6c6">form ×33</td><td>2026-04-17 → 2026-09-22</td></tr><tr><td><code>one-day-move</code> — dates move by one day between viewers</td><td>5</td><td>5</td><td class="via svelte-1op6c6">email ×3 · app ×2</td><td>2026-04-02 → 2026-10-04</td></tr><!--]--></tbody></table><!----> <p>Every number above is computed from <code>data/reports-4471.json</code>, <code>data/tenants/</code> and <code>data/desk-notes.json</code> at render time. The export pages overlap, so rows are deduplicated
+by id first: 427 rows become 412 unique reports.</p> <h2>The three problems</h2> <h3><code>parser-order</code> — the shared parser reads every date month first</h3> <p>Every tenant on file writes the day first, so dates with a day of 12 or less come back
 flipped: <em>“Our 7 April reminder went out on 4 July”</em> (R-41200). A day of 13 or more fails
 or lands in the wrong month instead: October bookings shown as January (R-41615). This is
 the bug <a href="/kb/incidents/4471">#4471</a> describes, and the queued fix addresses it — parse with
@@ -54,16 +54,16 @@ will keep being true after the next export.</li></ul> <!--[0--><p class="stamp s
 			
 			<script>
 				{
-					__sveltekit_1xhx5ar = {
+					__sveltekit_1debzhs = {
 						base: new URL("../..", location).pathname.slice(0, -1),
-						version: "1793280107644"
+						version: "1793280219382"
 					};
 
 					const element = document.currentScript.parentElement;
 
 					import("../../_app/immutable/entry/start.CW706yvM.js").then(async (kit) => {
-						kit.init(__sveltekit_1xhx5ar);
-						const app = await import("../../_app/immutable/entry/app.qKS2lgHM.js");
+						kit.init(__sveltekit_1debzhs);
+						const app = await import("../../_app/immutable/entry/app.DiHrjw_9.js");
 						kit.start(app, element, {
 							node_ids: [0, 6],
 							data: [null,null],

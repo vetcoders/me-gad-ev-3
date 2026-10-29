@@ -1,7 +1,7 @@
 // What #4471 actually holds. causes.ts tells parser from hint by tenant and channel;
 // desk-notes.json marks the reports the desk read as a one-day move. A report lands in
 // exactly one problem, so the problem counts add up to the ticket's report count.
-import { causeOf, type Report, type Tenant } from '#lib/kb/causes';
+import { causeOf, uniqueById, type Report, type Tenant } from '#lib/kb/causes';
 
 export type ProblemKey = 'parser-order' | 'hint-mismatch' | 'one-day-move' | 'unplaced';
 
@@ -36,7 +36,7 @@ export function groupByProblem(
   oneDayMove: readonly string[],
   ticket: number
 ): Problem[] {
-  const merged = reports.filter((r) => r.mergedInto === ticket);
+  const merged = uniqueById(reports).filter((r) => r.mergedInto === ticket);
   const byKey = new Map<ProblemKey, Report[]>();
   for (const r of merged) {
     const key = problemOf(r, tenantOf(r), oneDayMove);

@@ -27,8 +27,8 @@ so nobody had read these bodies. Reading them is what split the ticket.
 <ProblemTable ticket={4471} />
 
 Every number above is computed from `data/reports-4471.json`, `data/tenants/` and
-`data/desk-notes.json` at render time. The desk counts rows as exported: the export
-pages overlap, so 15 reports appear twice, for 427 rows of 412 unique reports.
+`data/desk-notes.json` at render time. The export pages overlap, so rows are deduplicated
+by id first: 427 rows become 412 unique reports.
 
 ## The three problems
 
